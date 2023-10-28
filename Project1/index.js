@@ -47,3 +47,24 @@ item2.push (510)
 console.log(item2);
 
 
+const people = { 
+    name: "ShSB",
+    age: 30,
+    salary: "50k",
+    working_days: ["jan", "feb", "march"],
+    address: {
+        home: "Dhaka", 
+        billing: "Gopalgonj"
+    }
+};
+
+console.log(people); 
+
+
+people.name = "Bappi"; 
+people.age -= 5;
+people.job = "QA"; 
+people.salary = 100000;
+
+
+console.log(people);

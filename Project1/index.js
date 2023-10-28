@@ -97,16 +97,16 @@ console.log("\n");
 
 
 
-const number = []
-number.push(10);//index  0
-number.push(40);//index 1
-number.push(30);//index 2
-number.push(100);//index 3
-number.push(500); //index 4
+const numb = []
+numb.push(10);//index  0
+numb.push(40);//index 1
+numb.push(30);//index 2
+numb.push(100);//index 3
+numb.push(500); //index 4
 
 i = 0;
-while (i < number.length) {
-    console.log(number[i]);
+while (i < numb.length) {
+    console.log(numb[i]);
     i++;
 }
 

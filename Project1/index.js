@@ -25,6 +25,8 @@ let p = "new"
 p = null; 
 console.log(p);
 
+console.log("\n");
+
 
 let o = { 
     name: "Devid jack", 
@@ -35,8 +37,30 @@ let o = {
 console.log(o);
 
 
-const item = [10,15,20,25] 
-console.log(item);
+console.log("\n");
+
+
+
+const number = [10,15,20,25] 
+console.log(number);
+
+
+for(i=0; i<number.length; i++){
+    console.log("by for loop: "+number[i]);
+}
+
+
+console.log("\n");
+
+
+for (const item of number){
+    console.log(item); 
+}
+
+
+console.log("\n");
+
+
 
 const item2 = [] 
 item2.push (10)
@@ -68,3 +92,5 @@ people.salary = 100000;
 
 
 console.log(people);
+
+

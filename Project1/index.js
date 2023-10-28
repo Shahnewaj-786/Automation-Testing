@@ -7,6 +7,7 @@ const b = 13;
 let c = "1";
 let d = b+c; // add a string and a number
 
+
 console.log (a+b);
 
 console.log (d); // as we know output will be string
@@ -16,3 +17,11 @@ console.log (typeof (a));
 console.log (typeof (a+b)); // for check data type of a variable use typeof()
 
 console.log (typeof d);
+
+let z = 2;
+z = undefined; // When need to earase or delete any variable 
+console.log(z);
+
+let p = "new"
+p = null; // When need to earase or delete any variable 
+console.log(p);

@@ -25,3 +25,16 @@ console.log(z);
 let p = "new"
 p = null; // When need to earase or delete any variable 
 console.log(p);
+
+
+let o = { // let a = {} this how an object is defined in js
+    name: "Devid jack", // a: value, b: value --> this is way of define key or property for object
+    age: 30,
+    number: "+880111111"
+}
+
+console.log(o);
+
+
+
+

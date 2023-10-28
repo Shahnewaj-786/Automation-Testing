@@ -35,5 +35,15 @@ let o = {
 console.log(o);
 
 
+const item = [10,15,20,25] 
+console.log(item);
+
+const item2 = [] 
+item2.push (10)
+item2.push (107)
+item2.push (150)
+item2.push (170)
+item2.push (510)
+console.log(item2);
 
 

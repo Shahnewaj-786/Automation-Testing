@@ -31,8 +31,39 @@ const x = s4(); //Store the function in variable x
 console.log(x); //print x --> this will print s4 function 
 
 
+let e = "2";
+let f = 2;
+let g = (e+f);
+console.log(g) //In JS string has more priority over int. 
 
 
 
+//Create an add function 
+
+function my_add(a,b){
+    const result = a+b;
+    console.log("Result is: "+result)
+}
+
+my_add(2,5)
+
+my_add("2",5)
+
+my_add(2,"5")
+
+
+
+
+function my_add_number(a,b){
+    const result = Number(a)+Number(b);
+    console.log("Result is: "+result)
+}
+
+
+my_add_number(2,5)
+
+my_add_number("2",5)
+
+my_add_number(2,"5")
 
 

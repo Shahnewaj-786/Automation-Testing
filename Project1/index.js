@@ -111,3 +111,34 @@ while (i < numb.length) {
 }
 
 console.log("\n");
+
+
+
+
+
+
+function my_add(a,b){
+    const result = a+b;
+    console.log("Result is: "+result)
+}
+
+my_add(2,5)
+
+my_add("2",5)
+
+my_add(2,"5")
+
+
+
+
+function my_add_number(a,b){
+    const result = Number(a)+Number(b);
+    console.log("Result is: "+result)
+}
+
+
+my_add_number(2,5)
+
+my_add_number("2",5)
+
+my_add_number(2,"5")

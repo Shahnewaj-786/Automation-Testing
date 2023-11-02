@@ -4,6 +4,6 @@
  */
 
 
-const FoodReady = required ('./FoodReady/task'); //Np need to wride extension after file name as JS auto detect this. 
+const FoodReady = required ('./FoodReady/task'); //No need to write extension after file name as JS auto detect this. 
 
 const foodCook = new FoodReady();

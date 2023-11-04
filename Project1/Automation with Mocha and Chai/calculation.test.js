@@ -1,4 +1,4 @@
-// description: Sumation os 2 numbers
+// description: Sumation of 2 numbers
 // execution: expected = 6, actual = 5
 // assertion: true e=a, false e != a 
 
